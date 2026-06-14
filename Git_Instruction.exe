@@ -1,0 +1,26 @@
+Git && Github
+I. Cách khởi tạo tên, email và reposition dưới local:
+    1. (git config --global user.name 'ten')
+    2. (git config --global user.email 'email')
+    3. Khởi tạo reposition: (git init)
+    
+II. Tương tác với git:
+    1. Kiểm tra trạng thái: (git status)
+
+    2. Tiến trình từ thư mục đến reposition ở local
+        -----Thư mục làm việc-----Staging Area-----Commited------
+        * Thư mục làm việc: Các thư mục đang trực tiếp code (Untracked files)
+        * Staging Area: Khu vực chứa các thư mục đang chờ Commited
+        * Commited: Đã Commited thành công lên reposition ở local
+
+    3. Thêm thư mục vào Staging Area: 
+        * Một thư mục: (git add FileName)
+        * Nhiều thư mục: (git add FileName1 FileName2)  hoặc  (git add .)
+
+    4. Commited: (git commit -m "message")
+
+    5. Kiểm tra các thay đổi với reposition ở local: (git log)
+
+III. Đưa lên reposition trung tâm:
+    1. Khởi tạo reposition trung tâm trên Github
+    2. Làm theo hướng dẫn:
