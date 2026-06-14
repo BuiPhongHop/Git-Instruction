@@ -43,4 +43,6 @@ IV. Các thao tác branch, checkout, merge, pull
     6. Cách chuyển đến một version nào đó - chuyển đến một nhánh
     có tên là addressOfCommit: (git checkout addressOfCommit)
 
-    7.  
+    7. Lấy code từ version mới nhất trên server: (git pull)
+        + Tránh conflict
+        + Sau khi giải quyết xung đột xong thì submit lại một lần nữa 
