@@ -25,11 +25,22 @@ II. Tương tác với git:
     6. Kiểm tra các thao tác với reposition: (git log)
 
 III. Đưa lên reposition trung tâm:
-    1. Khởi tạo reposition trung tâm trên Github và làm theo hướng dẫn
+    1. Khởi tạo reposition trung tâm trên GitHub và làm theo hướng dẫn
 
-    2. Nếu muốn thêm file ở những lần sau đó vào cùng nhánh: (git push)
+    2. Nếu muốn thêm thư mục ở những lần sau đó vào cùng nhánh: (git push)
 
 IV. Các thao tác branch, checkout, merge, pull
-    1. Tạo một branch với các thao tác từ thời điểm hiện tại: (git checkout -b BranchName)
+    1. Tạo một branch gồm các thao tác từ thời điểm hiện tại: (git checkout -b BranchName)
+    2. Thêm thư mục vào branch mới (lần đầu): (git push -u origin BranchName)
+    tương tự, sau đó muốn cập nhật lên branch, chỉ cần dùng: git push
+
+    3. Xoá branch trên server: (git push origin --delete BranchName)
+
+    4. Chỉ đến một branch nào đó: (git checkout BranchName)
     
-    2. 
+    5. Nối một branch nào đó với branch hiện tại : (git merge BranchName)
+
+    6. Cách chuyển đến một version nào đó - chuyển đến một nhánh
+    có tên là addressOfCommit: (git checkout addressOfCommit)
+
+    7.  
