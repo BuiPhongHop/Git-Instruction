@@ -46,3 +46,8 @@ IV. Các thao tác branch, checkout, merge, pull
     7. Lấy code từ version mới nhất trên server: (git pull)
         + Tránh conflict
         + Sau khi giải quyết xung đột xong thì submit lại một lần nữa 
+        
+VIII. Cách clone code từ server:
+    1. (git remote add origin <URL link từ server>)
+
+    2. Đổi link cũ thành link mới: (git remote set-url origin <URL link mới từ server>)
