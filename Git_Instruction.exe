@@ -18,7 +18,7 @@ II. Tương tác với git:
         * Nhiều thư mục: (git add FileName1 FileName2)  hoặc  (git add .)
 
     4. Cách đưa một thư mục tại Staging Area về lại khu vực thư mục làm việc: 
-    (git restore --staged FileName)
+    (git restore --staged FileName) hoặc (git rm --cached main.exe)
 
     5. Commited: (git commit -m "message")
 
